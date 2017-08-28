@@ -27,10 +27,11 @@
                     <div id="messages" style="display: block;">
 <center>
 </center>
+                    <span>此刻开始：</span><br>
                     <div id="elapseClock"></div>
                     <div id="loveu" style="display: block;">
-                    Together with me!<br>
-                        <div class="signature">- From 小明</div>
+                    小明&amp;小婷<br>
+                        <div class="signature">-- Together with me!</div>
                     </div>
                 </div>
             </div>
@@ -59,15 +60,15 @@
         } else {
             setTimeout(function () {
                 startHeartAnimation();
-            }, 5000);
+            }, 1500);
 
             timeElapse(together);
             setInterval(function () {
                 timeElapse(together);
             }, 500);
 
-            adjustCodePosition();
-            $("#code").typewriter();
+            // adjustCodePosition();
+            // $("#code").typewriter();
         }
     </script>
     <audio src="20140413_025646.mp3" autoplay="autoplay"></audio>
